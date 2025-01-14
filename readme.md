@@ -128,15 +128,3 @@ ce data_processor.py
   ```  
   Adjust the script if you need more sophisticated argument handling.  
 - **Non-Python Commands**: This batch file can work for any command-line tool that returns a proper exit code—just replace `python "%SCRIPT%"` with your command.  
-
-## 7. Contributing
-
-If you have improvements—like better error messages, more robust argument handling, or additional features—feel free to fork this and submit a pull request or share your modifications with the community.
-
-## 8. License
-
-You can specify any open-source license you prefer (e.g., MIT, Apache 2.0, etc.). If not specified, assume you share it freely.
-
----
-
-With `ce.bat` in place, you’ll be able to quickly capture error messages from Python scripts (or other command-line tools) to your clipboard—making it much easier to share or paste into chat-based Large Language Models or other troubleshooting channels.
